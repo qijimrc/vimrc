@@ -1,4 +1,5 @@
 " miracle_begin: this is head config
+set mouse = a
 set nocompatible              " required
 "filetype off                  " required
 filetype on                  " required
@@ -144,6 +145,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 " hidden the .pyc files
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 let g:NERDTreeNodeDelimiter = "\u00a0" " this is for mac
+let g:NERDTreeMouseMode = 2
 " add the hot-key
 map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
