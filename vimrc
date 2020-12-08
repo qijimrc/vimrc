@@ -1,5 +1,5 @@
 " miracle_begin: this is head config
-set mouse = a
+set mouse=a
 set nocompatible              " required
 "filetype off                  " required
 filetype on                  " required
